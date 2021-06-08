@@ -1,2 +1,2 @@
 # PYTHON-PROJECTS
--Só pra deixar salvo
+-Todos meus pojetos do mundo 1 do curso do guanabara salvos aqui :)
