@@ -1,0 +1,7 @@
+print('===============================PREÇO===============================')
+preco = float(input('Digite o preço do seu produto: R$'))
+avista = float(preco - (10 / 100 * preco))
+cartao = float(preco + (8 / 100 * preco))
+print('O preço do seu produto é:R${:.2f}.\nA vista seu produto está: R${:.2f} \nNo cartão seu produto está por: R${:.2f}'.format(preco, avista, cartao))
+print('Obrigada por usar nossos serviços. Para outras consultas de preço aperte shift+f10. ;)')
+print('===================================================================')

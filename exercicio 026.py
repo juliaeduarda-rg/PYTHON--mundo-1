@@ -1,0 +1,5 @@
+frase = str(input('Digite uma bela frase:')).strip()
+frase = frase.lower()
+print('A sua frase tem {} a.'.format(frase.count('a')))
+print('A primera letra a está na posição {}.'.format(frase.find('a')+1))
+print('A ultima vez que ela aparece é na posição:{}'.format(frase.rfind('a')+1).strip())

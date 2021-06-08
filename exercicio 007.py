@@ -1,0 +1,5 @@
+print('==============================================')
+n1 = float(input('Escreva aqui a primeira nota do seu aluno:'))
+n2 = float(input('Escreva aqui a segunda note do seu aluno:'))
+print('==============================================')
+print('A media do seu aluno é:{:.3}'.format((n1 + n2) / 2))

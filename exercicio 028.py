@@ -1,0 +1,30 @@
+import pygame
+from random import randint
+from time import sleep
+print('_=_' * 20)
+print('BEM VINDO JOGADOR!')
+sleep(1)
+print('AGORA VOCÊ IRÁ TESTAR SUA SORTE.')
+print('_=_' * 20)
+sleep(1)
+jd = int(input('Escreva agora um número de 1 a 5:'))
+cd = (randint(1,5))
+print('_=_' * 20)
+print('Espere um pouco...')
+sleep(2)
+if jd != cd:
+    print('PENSEI NO NÚMERO {}.VOCÊ PERDEU!'.format(cd))
+    pygame.mixer.init()
+    pygame.init()
+    pygame.mixer.music.load('perder.mp3')
+    pygame.mixer.music.play(loops=0, start=0.0)
+    input()
+    pygame.event.wait()
+else:
+    print('TAMBÉM PENSEI NO NÚMERO {}.VOCÊ GANHOU!'.format(cd))
+    pygame.mixer.init()
+    pygame.init()
+    pygame.mixer.music.load('ganhar.mp3')
+    pygame.mixer.music.play(loops=0, start=0.0)
+    input()
+    pygame.event.wait()
